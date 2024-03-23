@@ -1,0 +1,209 @@
+/* <!-- ============================ bootstrap ============================ --> */
+.container-fluid.d-flex.bg-primary {
+    background-color: #FFD1E3 !important;
+}
+
+.container-fluid.bg-primary {
+    background-color: #FFD1E3 !important;
+}
+
+.navbar.bg-secondary {
+    background-color: #FFC0D9 !important;
+
+}
+
+/* ------------- button ------------- */
+.btn.btn-outline-primary {
+    border-color: #FF407D;
+    color: #FF407D;
+}
+
+.btn.btn-outline-primary:hover {
+    background-color: #FF407D;
+    border-color: #FF407D;
+}
+
+.btn.btn-outline-primary,
+.btn.btn-primary {
+    border-radius: 2rem;
+    margin: 1rem 0;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.btn.btn-primary {
+    background-color: #FF407D;
+    border-color: #FF407D;
+}
+
+.btn.btn-primary:hover {
+    background-color: #ff286c;
+    border-color: #ff286c;
+}
+
+/* ------------- h... ------------- */
+.col-4.text-center>h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.col-4.text-center>h2 {
+    opacity: .8;
+    font-weight: bold;
+}
+
+.w-card {
+    width: 30vw;
+    padding-top: 1rem;
+}
+
+.card.w-card {
+    border-radius: 2rem;
+    border: 1px solid #ff286c;
+    background-color: transparent !important;
+}
+
+.card-project {
+    height: auto;
+    border: 1px solid #ff286c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 1rem 2rem !important;
+}
+
+.buttons-card button {
+    padding: 1rem 2.5rem;
+
+}
+
+.nav-item>.nav-link {
+    color: black;
+}
+
+.nav-item>.nav-link:hover {
+    color: #ff286c;
+}
+
+#projects>div.row>div.row.m-auto>div.col-md-6.m-auto>div>div,
+#projects>div.row>div.row.m-auto>div.col-md-6.m-auto>div {
+    background-color: #FFD1E3;
+    border: 1px solid #ff286c;
+    border-radius: 1rem;
+}
+
+#projects>div.row>div.row.m-auto>div.col-md-6.m-auto>div>div {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0 1rem;
+
+}
+
+/* <!-- ============================ experience ============================ --> */
+body>div:nth-child(3)>div>div.col-lg-6.text-center>div:nth-child(1)>div:nth-child(1)>div>div.card-body,
+body>div:nth-child(3)>div>div.col-lg-6.text-center>div:nth-child(1)>div:nth-child(2)>div>div.card-body {
+    background-color: #ffb5d1;
+}
+
+body>div:nth-child(3)>div>div.col-lg-6.text-center>div:nth-child(1)>div:nth-child(1)>div>div.card-header,
+body>div:nth-child(3)>div>div.col-lg-6.text-center>div:nth-child(1)>div:nth-child(2)>div>div.card-header,
+body>div:nth-child(3)>div>div.col-lg-6.text-center>div:nth-child(1)>div:nth-child(1)>div>div.card-footer.text-body-secondary,
+body>div:nth-child(3)>div>div.col-lg-6.text-center>div:nth-child(1)>div:nth-child(2)>div>div.card-footer.text-body-secondary{
+    background-color: #FF407D;
+    
+}
+
+/* <!-- ============================ gerais ============================ --> */
+body {
+    overflow-x: hidden;
+
+    background-color: #FFD1E3 !important;
+}
+
+html {
+    background-color: #FFD1E3 !important;
+
+}
+
+.titulo-grande {
+    font-size: 3em;
+}
+
+.titulo-pequeno {
+    font-size: 1.1em;
+    opacity: .8;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #FFD1E3;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #FFD1E3;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff286c;
+    border-radius: 3rem;
+}
+
+/* <!-- ============================ nav ============================ --> */
+
+.nav-item {
+    font-size: 1.2em;
+}
+
+@media screen and (min-width: 991px) {
+    .navbar-nav.position-absolute {
+        right: 2rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #navbarNav>ul {
+        background-color: #FFC0D9;
+        width: 100%;
+    }
+
+    body>div:nth-child(3),
+    #experience,
+    #projects {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 10rem 0;
+        margin-top: 10rem;
+        margin-bottom: 25rem;
+    }
+
+    #experience>div.row.m-auto>div:nth-child(1)>div,
+    #experience>div.row.m-auto>div:nth-child(2)>div {
+        width: 100%;
+    }
+
+    body>div.container-fluid.text-center.bg-primary.mt-5>div {
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 440px){
+    .col.me-3.ms-3.mt-4.mb-4{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+
+/* <!-- ============================ header ============================ --> */
+.media-header i {
+    padding: 1rem;
+    font-size: 2.3rem;
+}
+
+.media-header i:hover {
+    color: #FF407D;
+    cursor: pointer;
+    transition: .4s linear;
+}
